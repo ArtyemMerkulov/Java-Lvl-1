@@ -8,8 +8,8 @@ public class TicTacToe {
         char[] symbols = new char[] {'0', 'X'};
 
         int fieldSize = getFieldSize();
-//        char[][] field = getField(fieldSize);
-        char[][]field = new char[][] {{'0', 'X', ' '}, {' ', '0', ' '}, {'X', '0', 'X'}};
+        char[][] field = getField(fieldSize);
+        //char[][]field = new char[][] {{'0', 'X', ' '}, {' ', '0', ' '}, {'X', '0', 'X'}};
 
         char[] players = initPlayers(symbols);
 
